@@ -1,12 +1,43 @@
+*{
+    box-sizing: border-box;
+}
+
 header{
     border: 1px red solid;
 }
 
 main{
-    border: 1px blue solid;
+    border: 1px green solid;
 }
 
 
 footer{
-    border: 1px orange solid;
+    border: 1px blue solid;
+}
+
+nav{
+    border: 1px  orange solid;
+    display:inline-block;
+    width: 194px;
+    vertical-align: top;
+
+}
+
+section{
+    border: 1px  pink solid;
+    display:inline-block;
+    width: 298px;
+
+}
+
+#wrapper{
+    width: 600px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 100px;
+    background-color: bisque;
+}
+
+body{
+    background-color: darkseagreen;
 }
