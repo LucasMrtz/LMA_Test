@@ -1,11 +1,12 @@
-label{
-    display: inline-block;
-    width: 150px;
-}
-h1{
-    color:red;
+header{
+    border: 1px red solid;
 }
 
-p{
-    background-color:red;
+main{
+    border: 1px blue solid;
+}
+
+
+footer{
+    border: 1px orange solid;
 }
